@@ -17,5 +17,10 @@ public class Car extends Vehicle {
          '}';
 
     }
+
+    @Override
+    public double calBill() {
+        return 10;
+    }
 }
 

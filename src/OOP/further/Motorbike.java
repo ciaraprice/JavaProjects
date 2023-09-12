@@ -18,4 +18,9 @@ public class Motorbike extends Vehicle {
                 '}';
 
     }
+
+    @Override
+    public double calBill() {
+        return 5000;
+    }
 }

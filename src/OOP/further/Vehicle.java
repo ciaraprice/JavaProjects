@@ -1,9 +1,12 @@
 package OOP.further;
 
-public class Vehicle {
+public abstract class Vehicle {
+
     private int age;
     private String color;
     private int mileage;
+
+
 
     public Vehicle(int age, String color, int mileage) {
         super();
@@ -11,6 +14,8 @@ public class Vehicle {
         this.color = color;
         this.mileage = mileage;
     }
+
+    public abstract double calBill();
 
     private int id;
 

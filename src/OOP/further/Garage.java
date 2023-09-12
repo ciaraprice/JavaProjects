@@ -48,6 +48,15 @@ public class Garage {
         return false;
     }
 
+    public double calBill() {
+        double bill = 0;
+
+        for (Vehicle v : this.vehicles) {
+            bill += v.calBill();
+        }
+        return bill;
+    }
+
 
     @Override
     public String toString() {

@@ -16,6 +16,8 @@ public class Runner {
 
         Car c1 = new Car();
 
+        Car c2 = new Car();
+
 
         Garage g = new Garage();
         g.addVehicle(c);
@@ -29,6 +31,10 @@ public class Runner {
         System.out.println(g);
         g.removeByType("Car");
         System.out.println(g);
+
+        System.out.println("below is the calc bill");
+        g.addVehicle(c2);
+        System.out.println(g.calBill());
 
 
 

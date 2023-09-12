@@ -17,4 +17,8 @@ public class Plane extends Vehicle {
 
     }
 
+    @Override
+    public double calBill() {
+        return 250000;
     }
+}
